@@ -1,0 +1,36 @@
+a {
+	box-sizing: border-box;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	width: 40px;
+	height: 40px;
+	border-radius: 2px;
+	text-align: center;
+	margin-right: 10px;
+}
+
+button {
+	box-sizing: border-box;
+	width: 120px;
+	height: 40px;
+	border: 0;
+	background-color: #AA3939;
+	color: white;
+	border-radius: 2px;
+	float: right;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+
+button:hover {
+	background-color: #D46A6A;
+	border: none;
+}
+
+button:focus {
+    border: none;
+    outline: none;
+}
+
+
