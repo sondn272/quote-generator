@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import QuoteBox from './QuoteBox'
 import Buttons from './Buttons'
 import './App.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee} from '@fortawesome/free-solid-svg-icons'
 
 class App extends Component {
 	constructor() {
@@ -18,7 +16,6 @@ class App extends Component {
 			.then(res => res.json())
 			.then(quotes => {
 				this.setState({quotes: quotes.quotes})
-				console.log(this.state.quotes)
 			});
 	}
 

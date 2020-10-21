@@ -1,6 +1,5 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTwitter, faTumblr } from '@fortawesome/free-brands-svg-icons';
 import { faQuoteLeft} from '@fortawesome/free-solid-svg-icons';
 
 const QuoteBox = ({quote, author}) => {
