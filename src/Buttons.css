@@ -1,3 +1,7 @@
+div {
+	display: block;
+}
+
 a {
 	box-sizing: border-box;
 	display: inline-flex;
@@ -7,7 +11,6 @@ a {
 	height: 40px;
 	border-radius: 2px;
 	text-align: center;
-	margin-top: 20px;
 	margin-right: 10px;
 }
 
@@ -20,7 +23,6 @@ button {
 	color: white;
 	border-radius: 2px;
 	float: right;
-	margin-top: 20px;
 }
 
 button:hover {
