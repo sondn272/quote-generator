@@ -3,7 +3,7 @@ body {
 }
 
 .container {
-	display: block;
+	display: inline-block;
 	width: 550px;
 	height: auto;
 	position: absolute;
